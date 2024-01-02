@@ -6,3 +6,9 @@ for item in favorites:
 # Print whit value
 for dex, item in enumerate(favorites):
     print(dex, item)
+
+
+for x in favorites:
+  print(x)
+  if x == "churros":
+    break
