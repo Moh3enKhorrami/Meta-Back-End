@@ -1,4 +1,4 @@
-with open("text.txt", mode="r") as file:
+with open("test.txt", mode = "r") as file:
 
     data = file.readline()
     print(data)
