@@ -1,20 +1,22 @@
 import random
 a = 0
-b = 99
-hads = random.randint(a, b)
+z = 99
+hads = random.randint(a, z)
 print(hads)
-javab = str(input("Che fekri mikoni: "))
+javab = input()
 
-while javab != :
-    if javab == b:
-        b = int(javab)
-        hads = random.randint(a, b)
-    elif javab == k:
-        a = int(javab)
-        hads = random.randint(a, b)
-    elif javab == d:
-        print("Dorost gofti: ", javab)
 
-hads = random.randint(a, b)
-print(hads)
-
+while javab != "d" :
+    if javab == "b":
+        z = hads
+        hads = random.randint(a, z)
+        print(hads)
+        javab = input()
+    elif javab == "k":
+        a = hads
+        hads = random.randint(a, z)
+        print(hads)
+        javab = input()
+    
+print("Dorost gofti: ", hads)
+    
